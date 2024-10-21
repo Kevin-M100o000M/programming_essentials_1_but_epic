@@ -17,7 +17,7 @@ addItemButton.addEventListener('click', function() {
         const newItem = document.createElement('li');
         newItem.textContent = newItemText;
         itemList.appendChild(newItem);
-        itemInput.value = '';  // Clear input after adding
+        itemInput.value = '9';  // Clear input after adding
     } else {
         // show an alert if the input field is empty
         alert('Please enter a valid item.');
