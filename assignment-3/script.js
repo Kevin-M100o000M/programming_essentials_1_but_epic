@@ -1,14 +1,14 @@
 // Sla de buttons in variabelen op.
 const redButton = document.getElementById('redButton');
-const greenButton = document.getElementById('?');
-const blueButton = document.getElementById('?');
+const greenButton = document.getElementById('greenButton');
+const blueButton = document.getElementById('blueButton');
 
 // sla de tekst op in een variabele.
-const text1 = document.getElementById('text1');
+const text = document.querySelector('.text-elements');
 
-redButton.onclick = () => {ChangeColor(text1, 'red')};
-// greenButton.onclick = () => { ? };
-// blueButton.onclick = () => { ? };
+redButton.onclick = () => {ChangeColor(text, 'red')};
+greenButton.onclick = () => {ChangeColor(text, 'green')};
+blueButton.onclick = () => {ChangeColor(text, 'blue')};
 
 // Dit is een functie om de kleur te veranderen
 // De functie accepteert twee argumenten: element en color
