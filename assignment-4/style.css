@@ -1,0 +1,54 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e9f5f9;
+}
+
+h1 {
+    color: #333;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    width: 200px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#guessButton {
+    background-color: #8ecae6;
+    color: #023047;
+}
+
+#playAgainButton {
+    background-color: #219ebc;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}
